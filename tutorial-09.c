@@ -9,8 +9,10 @@ int sum(int arr[], int size){
 }
 int main(){
     int array[] = {1, 2, 3, 4, 5,6};
-    printf("%d", sum(array, sizeof(array)/sizeof(int)));
+
+    // because we don't know what is exactly its size
+    // we can use 'sizeof' to apply the solution
+    printf("%d", sum(array, sizeof(array)/sizeof(int)));      
 
     return 0;
 }
-
