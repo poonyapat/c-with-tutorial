@@ -14,4 +14,3 @@ int main(){
     scanf("%d", &number);
     printf("%d\n", fibo(number));
 }
-

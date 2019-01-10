@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main(){
     int number;
     scanf("%d", &number);
@@ -14,4 +13,3 @@ int main(){
         printf("%d = 10", number);
     }
 }
-
